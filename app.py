@@ -41,6 +41,6 @@ interface = gr.Interface(
     ]
 )
 
-# Launch the app with debugging active to trap server hanging/freezing issues
+# Launch the app with sharing and debugging enabled for cloud deployment
 if __name__ == "__main__":
-    interface.launch(debug=True)
+    interface.launch(share=True, debug=True)
